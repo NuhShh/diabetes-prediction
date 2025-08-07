@@ -18,7 +18,15 @@ A project that predicts diabetes based on medical data using several ML algorith
 ## 📁 How to Run
 1. Clone this repo
 2. Install requirements: `pip install -r requirements.txt`
-3. Run the notebook: `diabetes_prediction.ipynb`
+3. Open and run the notebook: `diabetes_prediction.ipynb`
+4. Make sure to replace the path to the dataset CSV file if necessary.
+
+### 🔧 Replace Dataset Path
+If the dataset is not in the same directory, edit the following line in the notebook:
+
+```python
+df = pd.read_csv('/path/to/your/Healthcare-Diabetes.csv')
+```
 
 ## 🔗 Dataset
 - [Healthcare Diabetes Dataset (Kaggle) - originally from the National Institute of Diabetes and Digestive and Kidney Diseases]
