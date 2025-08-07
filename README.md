@@ -12,7 +12,7 @@ A project that predicts diabetes based on medical data using several ML algorith
 - Evaluation metrics: precision, recall, confusion matrix
 
 ## ⚙️ Tools & Libraries
-- Python, Pandas, scikit-learn, Seaborn
+- Python, Pandas, scikit-learn, Seaborn, imbalanced-learn, numpy, matplotlib
 - Jupyter Notebook / Google Colab
 
 ## 📁 How to Run
